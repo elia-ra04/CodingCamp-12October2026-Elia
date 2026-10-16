@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Life To-Do Dashboard</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/app.js"></script>
+  </head>
+  <body>
+
+    <!-- ===== Greeting Widget ===== -->
+    <header>
+      <h1>Life To-Do Dashboard</h1>
+      <div class="greeting-widget" aria-label="Greeting widget">
+        <p id="time-display" aria-label="Current time"></p>
+        <p id="date-display" aria-label="Current date"></p>
+        <p id="greeting-message" aria-label="Greeting message"></p>
+      </div>
+    </header>
+
+    <main>
+
+      <!-- ===== 1. Custom Name Setting ===== -->
+      <section aria-labelledby="name-section-heading">
+        <h2 id="name-section-heading">Your Name</h2>
+        <div class="widget-body">
+          <label for="name-input">Display name</label>
+          <input
+            type="text"
+            id="name-input"
+            maxlength="50"
+            placeholder="Enter your name"
+            autocomplete="off"
+          />
+          <button type="button" id="name-save-btn">Save Name</button>
+          <p id="name-error" class="error-message" aria-live="polite"></p>
+        </div>
+      </section>
+
+      <!-- ===== 2. Focus Timer ===== -->
+      <section aria-labelledby="timer-section-heading">
+        <h2 id="timer-section-heading">Focus Timer</h2>
+        <div class="widget-body">
+          <p id="timer-display" class="timer-display" aria-label="Timer display" aria-live="polite">25:00</p>
+          <div class="timer-controls" role="group" aria-label="Timer controls">
+            <button type="button" id="timer-start-btn">Start</button>
+            <button type="button" id="timer-stop-btn" disabled>Stop</button>
+            <button type="button" id="timer-reset-btn">Reset</button>
+          </div>
+          <p id="timer-notification" class="timer-notification" aria-live="assertive" hidden>
+            ✅ Session complete! Great work.
+          </p>
+          <div class="duration-setting">
+            <label for="duration-input">Duration (minutes, 1–120)</label>
+            <input
+              type="number"
+              id="duration-input"
+              min="1"
+              max="120"
+              value="25"
+            />
+            <button type="button" id="duration-save-btn">Save Duration</button>
+            <p id="duration-error" class="error-message" aria-live="polite"></p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== 3. To-Do List ===== -->
+      <section aria-labelledby="tasks-section-heading">
+        <h2 id="tasks-section-heading">To-Do List</h2>
+        <div class="widget-body">
+          <div class="task-input-row">
+            <label for="task-input">New task</label>
+            <input
+              type="text"
+              id="task-input"
+              placeholder="What needs to be done?"
+              autocomplete="off"
+            />
+            <button type="button" id="task-add-btn">Add Task</button>
+          </div>
+          <p id="task-input-error" class="error-message" aria-live="polite"></p>
+          <ul id="task-list" aria-label="Task list"></ul>
+        </div>
+      </section>
+
+      <!-- ===== 4. Quick Links ===== -->
+      <section aria-labelledby="links-section-heading">
+        <h2 id="links-section-heading">Quick Links</h2>
+        <div class="widget-body">
+          <div class="link-input-group">
+            <label for="link-label-input">Link label</label>
+            <input
+              type="text"
+              id="link-label-input"
+              maxlength="50"
+              placeholder="e.g. Google"
+              autocomplete="off"
+            />
+            <p id="link-label-error" class="error-message" aria-live="polite"></p>
+
+            <label for="link-url-input">URL</label>
+            <input
+              type="text"
+              id="link-url-input"
+              maxlength="2048"
+              placeholder="https://example.com"
+              autocomplete="off"
+            />
+            <p id="link-url-error" class="error-message" aria-live="polite"></p>
+
+            <button type="button" id="link-add-btn">Add Link</button>
+          </div>
+          <div id="links-list" role="list" aria-label="Quick links"></div>
+        </div>
+      </section>
+
+      <!-- ===== 5. Theme Toggle ===== -->
+      <section aria-labelledby="theme-section-heading">
+        <h2 id="theme-section-heading">Appearance</h2>
+        <div class="widget-body">
+          <label class="theme-toggle-label" for="theme-toggle">
+            <span>Dark mode</span>
+            <input
+              type="checkbox"
+              id="theme-toggle"
+              role="switch"
+              aria-checked="false"
+            />
+          </label>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <p>Life To-Do Dashboard &mdash; all data stored locally in your browser.</p>
+    </footer>
+
+  </body>
+</html>
