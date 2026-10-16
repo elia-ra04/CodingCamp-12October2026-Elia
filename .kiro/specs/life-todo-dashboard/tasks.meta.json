@@ -1,0 +1,325 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "2.1 Implement `storageGet(key, fallback)`": [
+      {
+        "executionId": "8f1a07c4-cfec-4fb3-a646-253d07473d41",
+        "chatSessionId": "sess_08e6daa3-67c6-4307-8c1c-939cf1a9c138",
+        "timestamp": 1792078129378
+      },
+      {
+        "executionId": "8f1a07c4-cfec-4fb3-a646-253d07473d41",
+        "chatSessionId": "sess_08e6daa3-67c6-4307-8c1c-939cf1a9c138",
+        "timestamp": 1792078212124
+      }
+    ],
+    "2.2 Implement `storageSet(key, value)`": [
+      {
+        "executionId": "bdc5f29c-2a1f-4700-bf03-baabc7163964",
+        "chatSessionId": "sess_cf760cfa-5e79-4d6a-b8f5-18e0ae6b91ef",
+        "timestamp": 1792078241018
+      },
+      {
+        "executionId": "bdc5f29c-2a1f-4700-bf03-baabc7163964",
+        "chatSessionId": "sess_cf760cfa-5e79-4d6a-b8f5-18e0ae6b91ef",
+        "timestamp": 1792078282180
+      }
+    ],
+    "2.3 Implement `storageRemove(key)`": [
+      {
+        "executionId": "bdc5f29c-2a1f-4700-bf03-baabc7163964",
+        "chatSessionId": "sess_cf760cfa-5e79-4d6a-b8f5-18e0ae6b91ef",
+        "timestamp": 1792078245338
+      },
+      {
+        "executionId": "bdc5f29c-2a1f-4700-bf03-baabc7163964",
+        "chatSessionId": "sess_cf760cfa-5e79-4d6a-b8f5-18e0ae6b91ef",
+        "timestamp": 1792078282510
+      }
+    ],
+    "2. Implement Storage Layer": [
+      {
+        "executionId": "bdc5f29c-2a1f-4700-bf03-baabc7163964",
+        "chatSessionId": "sess_cf760cfa-5e79-4d6a-b8f5-18e0ae6b91ef",
+        "timestamp": 1792078282655
+      }
+    ],
+    "3.1 Define in-memory `state` and `timerState` objects inside the IIFE": [
+      {
+        "executionId": "66b6d188-3186-41ff-863c-0fa8f570c185",
+        "chatSessionId": "sess_3deb1b3b-74ee-4b12-b735-905647ad7fc9",
+        "timestamp": 1792078353347
+      },
+      {
+        "executionId": "66b6d188-3186-41ff-863c-0fa8f570c185",
+        "chatSessionId": "sess_3deb1b3b-74ee-4b12-b735-905647ad7fc9",
+        "timestamp": 1792078419474
+      }
+    ],
+    "3.2 Implement theme pre-render initialisation": [
+      {
+        "executionId": "66b6d188-3186-41ff-863c-0fa8f570c185",
+        "chatSessionId": "sess_3deb1b3b-74ee-4b12-b735-905647ad7fc9",
+        "timestamp": 1792078361590
+      },
+      {
+        "executionId": "66b6d188-3186-41ff-863c-0fa8f570c185",
+        "chatSessionId": "sess_3deb1b3b-74ee-4b12-b735-905647ad7fc9",
+        "timestamp": 1792078422849
+      },
+      {
+        "executionId": "8ed611fc-d7ed-45dd-9416-197a75d59a6c",
+        "chatSessionId": "sess_67497b4d-631a-4879-9e69-7c643376fcec",
+        "timestamp": 1792078754532
+      },
+      {
+        "executionId": "8ed611fc-d7ed-45dd-9416-197a75d59a6c",
+        "chatSessionId": "sess_67497b4d-631a-4879-9e69-7c643376fcec",
+        "timestamp": 1792078763058
+      }
+    ],
+    "3. Implement State Object and Theme Initialisation": [
+      {
+        "executionId": "66b6d188-3186-41ff-863c-0fa8f570c185",
+        "chatSessionId": "sess_3deb1b3b-74ee-4b12-b735-905647ad7fc9",
+        "timestamp": 1792078422937
+      }
+    ],
+    "4.1 Implement `updateClock()` and `startClockTick()`": [
+      {
+        "executionId": "7838d82d-eec3-44d4-b269-a95408ec48a1",
+        "chatSessionId": "sess_10a0765d-4c78-4a2c-81bd-3d260dd11598",
+        "timestamp": 1792078807465
+      },
+      {
+        "executionId": "7838d82d-eec3-44d4-b269-a95408ec48a1",
+        "chatSessionId": "sess_10a0765d-4c78-4a2c-81bd-3d260dd11598",
+        "timestamp": 1792078854343
+      }
+    ],
+    "4. Implement Greeting Widget": [
+      {
+        "executionId": "7838d82d-eec3-44d4-b269-a95408ec48a1",
+        "chatSessionId": "sess_10a0765d-4c78-4a2c-81bd-3d260dd11598",
+        "timestamp": 1792078854425
+      }
+    ],
+    "5.1 Implement `loadUserName()` and `saveUserName()`": [
+      {
+        "executionId": "f04b22d3-3848-48a4-ae91-6a4341dfa9a4",
+        "chatSessionId": "sess_d990d913-a912-41b2-a2d5-405b23d8c8e5",
+        "timestamp": 1792078912894
+      },
+      {
+        "executionId": "f04b22d3-3848-48a4-ae91-6a4341dfa9a4",
+        "chatSessionId": "sess_d990d913-a912-41b2-a2d5-405b23d8c8e5",
+        "timestamp": 1792078970799
+      }
+    ],
+    "5. Implement Custom Name Setting": [
+      {
+        "executionId": "f04b22d3-3848-48a4-ae91-6a4341dfa9a4",
+        "chatSessionId": "sess_d990d913-a912-41b2-a2d5-405b23d8c8e5",
+        "timestamp": 1792078970884
+      }
+    ],
+    "6.1 Implement `loadPomodoroDuration()` and `renderTimer()`": [
+      {
+        "executionId": "51f49f7f-60ff-402f-beee-35b9e6c2724e",
+        "chatSessionId": "sess_a482cf66-d674-4f76-b925-25be3bb579b4",
+        "timestamp": 1792078997276
+      },
+      {
+        "executionId": "51f49f7f-60ff-402f-beee-35b9e6c2724e",
+        "chatSessionId": "sess_a482cf66-d674-4f76-b925-25be3bb579b4",
+        "timestamp": 1792079036633
+      }
+    ],
+    "6.2 Implement `startTimer()`, `stopTimer()`, `resetTimer()`, and `onTimerTick()`": [
+      {
+        "executionId": "51f49f7f-60ff-402f-beee-35b9e6c2724e",
+        "chatSessionId": "sess_a482cf66-d674-4f76-b925-25be3bb579b4",
+        "timestamp": 1792079047262
+      },
+      {
+        "executionId": "51f49f7f-60ff-402f-beee-35b9e6c2724e",
+        "chatSessionId": "sess_a482cf66-d674-4f76-b925-25be3bb579b4",
+        "timestamp": 1792081432688
+      }
+    ],
+    "6.3 Implement `saveDuration()`": [
+      {
+        "executionId": "51f49f7f-60ff-402f-beee-35b9e6c2724e",
+        "chatSessionId": "sess_a482cf66-d674-4f76-b925-25be3bb579b4",
+        "timestamp": 1792081436371
+      },
+      {
+        "executionId": "51f49f7f-60ff-402f-beee-35b9e6c2724e",
+        "chatSessionId": "sess_a482cf66-d674-4f76-b925-25be3bb579b4",
+        "timestamp": 1792081485922
+      }
+    ],
+    "6. Implement Focus Timer and Pomodoro Duration": [
+      {
+        "executionId": "51f49f7f-60ff-402f-beee-35b9e6c2724e",
+        "chatSessionId": "sess_a482cf66-d674-4f76-b925-25be3bb579b4",
+        "timestamp": 1792081486059
+      }
+    ],
+    "7. Checkpoint — Core widgets complete": [
+      {
+        "executionId": "57d57874-e789-4032-be64-db2a56cccf66",
+        "chatSessionId": "sess_1a2422c3-9502-40cc-bca7-a9633531abe0",
+        "timestamp": 1792081568117
+      },
+      {
+        "executionId": "57d57874-e789-4032-be64-db2a56cccf66",
+        "chatSessionId": "sess_1a2422c3-9502-40cc-bca7-a9633531abe0",
+        "timestamp": 1792082856892
+      }
+    ],
+    "8.1 Implement `loadTasks()` and `renderTasks()`": [
+      {
+        "executionId": "5a1d6193-99f3-49f0-b5dc-792942e0eb1a",
+        "chatSessionId": "sess_b2897e41-1148-4dfb-8fed-c4eb0b80f4c9",
+        "timestamp": 1792082897537
+      },
+      {
+        "executionId": "5a1d6193-99f3-49f0-b5dc-792942e0eb1a",
+        "chatSessionId": "sess_b2897e41-1148-4dfb-8fed-c4eb0b80f4c9",
+        "timestamp": 1792082961562
+      }
+    ],
+    "8.2 Implement `addTask(description)`": [
+      {
+        "executionId": "5a1d6193-99f3-49f0-b5dc-792942e0eb1a",
+        "chatSessionId": "sess_b2897e41-1148-4dfb-8fed-c4eb0b80f4c9",
+        "timestamp": 1792082972304
+      },
+      {
+        "executionId": "5a1d6193-99f3-49f0-b5dc-792942e0eb1a",
+        "chatSessionId": "sess_b2897e41-1148-4dfb-8fed-c4eb0b80f4c9",
+        "timestamp": 1792083034728
+      }
+    ],
+    "8. Implement To-Do List — Task Creation and Display": [
+      {
+        "executionId": "5a1d6193-99f3-49f0-b5dc-792942e0eb1a",
+        "chatSessionId": "sess_b2897e41-1148-4dfb-8fed-c4eb0b80f4c9",
+        "timestamp": 1792083034826
+      }
+    ],
+    "9.1 Implement `toggleTask(id)`, `deleteTask(id)`": [
+      {
+        "executionId": "7670bb83-89ae-4ad3-b2e2-bd3e3a36d99b",
+        "chatSessionId": "sess_e5a10769-2034-4879-bb2b-2fd7ecbfaf7c",
+        "timestamp": 1792083110378
+      },
+      {
+        "executionId": "7670bb83-89ae-4ad3-b2e2-bd3e3a36d99b",
+        "chatSessionId": "sess_e5a10769-2034-4879-bb2b-2fd7ecbfaf7c",
+        "timestamp": 1792083153958
+      }
+    ],
+    "9.2 Implement `enterEditMode(id)`, `confirmEdit(id, value)`, `cancelEdit(id)`": [
+      {
+        "executionId": "7670bb83-89ae-4ad3-b2e2-bd3e3a36d99b",
+        "chatSessionId": "sess_e5a10769-2034-4879-bb2b-2fd7ecbfaf7c",
+        "timestamp": 1792083165215
+      },
+      {
+        "executionId": "7670bb83-89ae-4ad3-b2e2-bd3e3a36d99b",
+        "chatSessionId": "sess_e5a10769-2034-4879-bb2b-2fd7ecbfaf7c",
+        "timestamp": 1792083558315
+      }
+    ],
+    "9. Implement To-Do List — Editing, Completion, and Deletion": [
+      {
+        "executionId": "7670bb83-89ae-4ad3-b2e2-bd3e3a36d99b",
+        "chatSessionId": "sess_e5a10769-2034-4879-bb2b-2fd7ecbfaf7c",
+        "timestamp": 1792083558409
+      }
+    ],
+    "10.1 Implement `loadLinks()` and `renderLinks()`": [
+      {
+        "executionId": "742905be-46e9-4711-b02d-084a0c04c681",
+        "chatSessionId": "sess_2265adbe-0753-4eba-a636-3e8e66a3eb4d",
+        "timestamp": 1792083600382
+      },
+      {
+        "executionId": "742905be-46e9-4711-b02d-084a0c04c681",
+        "chatSessionId": "sess_2265adbe-0753-4eba-a636-3e8e66a3eb4d",
+        "timestamp": 1792083652919
+      }
+    ],
+    "10.2 Implement `addLink(label, url)` and `deleteLink(id)`": [
+      {
+        "executionId": "88789b7a-5c84-45fa-99b3-6d429fd12f36",
+        "chatSessionId": "sess_db129028-07b7-424a-91fb-00ada1ca69ae",
+        "timestamp": 1792083681527
+      },
+      {
+        "executionId": "88789b7a-5c84-45fa-99b3-6d429fd12f36",
+        "chatSessionId": "sess_db129028-07b7-424a-91fb-00ada1ca69ae",
+        "timestamp": 1792083741475
+      }
+    ],
+    "10. Implement Quick Links": [
+      {
+        "executionId": "88789b7a-5c84-45fa-99b3-6d429fd12f36",
+        "chatSessionId": "sess_db129028-07b7-424a-91fb-00ada1ca69ae",
+        "timestamp": 1792083741624
+      }
+    ],
+    "11.1 Create `init()` function and call it inside the IIFE": [
+      {
+        "executionId": "19a0e35b-dd4b-4f10-96b4-b4979bf1af0a",
+        "chatSessionId": "sess_5d74c1cb-1207-4a59-ba66-d44fd156c200",
+        "timestamp": 1792083779940
+      },
+      {
+        "executionId": "19a0e35b-dd4b-4f10-96b4-b4979bf1af0a",
+        "chatSessionId": "sess_5d74c1cb-1207-4a59-ba66-d44fd156c200",
+        "timestamp": 1792084172802
+      }
+    ],
+    "11. Wire application initialisation": [
+      {
+        "executionId": "19a0e35b-dd4b-4f10-96b4-b4979bf1af0a",
+        "chatSessionId": "sess_5d74c1cb-1207-4a59-ba66-d44fd156c200",
+        "timestamp": 1792084172955
+      }
+    ],
+    "12.1 Define CSS custom properties for light and dark themes": [
+      {
+        "executionId": "8d478a9c-c017-4d09-97e2-20e8d8479b0f",
+        "chatSessionId": "sess_0e6beac1-4c37-4b81-b569-0b846f87cc7a",
+        "timestamp": 1792084231822
+      },
+      {
+        "executionId": "8d478a9c-c017-4d09-97e2-20e8d8479b0f",
+        "chatSessionId": "sess_0e6beac1-4c37-4b81-b569-0b846f87cc7a",
+        "timestamp": 1792084281171
+      }
+    ],
+    "12.2 Style layout and widgets": [
+      {
+        "executionId": "8d478a9c-c017-4d09-97e2-20e8d8479b0f",
+        "chatSessionId": "sess_0e6beac1-4c37-4b81-b569-0b846f87cc7a",
+        "timestamp": 1792084294236
+      },
+      {
+        "executionId": "8d478a9c-c017-4d09-97e2-20e8d8479b0f",
+        "chatSessionId": "sess_0e6beac1-4c37-4b81-b569-0b846f87cc7a",
+        "timestamp": 1792084388848
+      }
+    ],
+    "12. Implement CSS styling": [
+      {
+        "executionId": "8d478a9c-c017-4d09-97e2-20e8d8479b0f",
+        "chatSessionId": "sess_0e6beac1-4c37-4b81-b569-0b846f87cc7a",
+        "timestamp": 1792084388960
+      }
+    ]
+  }
+}
